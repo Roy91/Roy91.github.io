@@ -1,0 +1,163 @@
+* {
+  margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: 'Indie Flower', cursive;
+   height: 100%;
+   width: 100%;
+   position: fixed;
+}
+
+html, body,
+{
+  margin: auto;
+}
+
+.row
+{
+display: flex;
+flex-direction: row;
+flex: 1;
+width: 100%;
+height: 100%;
+position: absolute;
+/*border: solid 2px;*/
+}
+
+.Titre{
+  display: flex;
+  flex-direction: row;
+  left: 34%;
+  top: 16%;
+  width: 34%;
+  height: 70%;
+  /*border: solid 2px;
+  border-color: yellow;*/
+}
+
+mark {
+  background-color: #c0e3dc;
+  width: 13%;
+  height: 6%;
+}
+
+.Poste{
+  left: 52%;
+  top: 16%;
+  font-size: 25px;
+  text-decoration : #373D40;
+}
+
+.Info{
+  width: 18%;
+  height: 30%;
+  left: 413px;
+  top: 16%;
+  /*border: 1px solid;
+  border-color: blue;*/
+}
+
+.Infos{
+  width: 11%;
+  height: 21%;
+  left: 36%;
+  top: 22%;
+  font-size: 12px;
+  color: #373D40;
+  /*border: 1px solid;
+  border-color: red;*/
+}
+
+img{
+  position: relative;
+}
+
+.col
+{
+  display : flex;
+  flex-direction: column;
+  flex: 3;
+  width: 100%;
+  /*border: 2px solid;
+  -border-color: red;*/
+}
+
+.Sujet{
+  left: 634px;
+  top: 23%;
+  width: 20%;
+  height: 20%;
+  font-size: 15px;
+  /*border: solid 1px;
+  border-color: green;*/
+}
+
+.Texte{
+  left: 34%;
+  top: 43%;
+  width: 34%;
+  height: 42%;
+  font-size: 15px;
+  overflow-y: scroll;
+  /*border: solid 2px;
+  border-color: purple;*/
+}
+
+.circle{
+  position: absolute;
+  height: 10px;
+  width: 10px;
+  background-color: #373D40;
+  opacity: 0.7;
+  border-radius: 100%;
+  transition: background-color 1s;
+}
+
+.circle:hover
+{
+  background-color: #c0e3dc;
+  opacity: 0,9;
+  /*transition: background-color 0,1s;*/
+}
+
+p{
+  left: 643px;
+  top: 23%;
+  width: 20%;
+  height: 20%;
+  margin: 10px;
+  color: #c0e3dc;
+  font-weight: bold;
+}
+
+#Exper{
+  left: 1%;
+  top: 12%;
+}
+
+#Diplo{
+  left: 1%;
+  top: 28%;
+}
+
+#Compt{
+  left: 1%;
+  top: 44%;
+}
+
+#Cent{
+  left: 1%;
+  top: 60%;
+}
+
+.red{
+  color: #edc8c0;
+  position: relative;
+  margin: auto;
+  font-weight: bold;
+}
+
+.gras{
+  font-weight: bold;
+  position: relative;
+}
